@@ -2,20 +2,20 @@
 
 # 1. Given the linked list below, which are the nodes? What is the data for each
 #    node? Where is the head? Where is the tail? (Please be as specific as
-#    possible — exactly which parts of the diagram correspond to each part?
+#    possible - exactly which parts of the diagram correspond to each part?
 #    Arrows? Boxes? Text?)
 #       Apple (data: "Apple"), Berry (data: "Berry"), and Cherry
 #       (data: "Cherry") are nodes
-#       In this diagram, there is no tail.
+#       In this diagram, apple is the head and there is no tail.
 
-# 2. What’s the difference between doubly- and singly-linked lists?
-#       Nodes in singly-linked lists have a next attribute, while nodes in 
+# 2. What's the difference between doubly- and singly-linked lists?
+#       Nodes in singly-linked lists have a next attribute, while nodes in
 #       doubly-linked lists have a next and a prev attribute.
 
 # 3. Why is it faster to append to a linked list if we keep track of the tail
 #    as an attribute?
 #       It's faster to append to a linked list if we add a tail attribute,
-#       because that way we don't have to traverse the list every time we 
+#       because that way we don't have to traverse the list every time we
 #       add a node (we know where the end is).
 
 ##########################################################################
